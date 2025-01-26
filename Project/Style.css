@@ -1,0 +1,277 @@
+/* transition: all 0.5s ease;
+transform: scale(1.02);   */
+
+
+/* This is only for Nav bar */
+
+.navbar{
+   
+    border-radius: 1%;
+    height: 15%;
+    background-color:white;
+    box-shadow: 0 1px 2px black;
+}
+.navbar:hover{
+    Box-shadow: 0 2px 5px grey;
+}
+.nav{
+    padding-left: 1%;
+    padding-bottom: 2%;
+    
+}
+
+.wonder{
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LINKS{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-size: large;
+    gap: 25px;
+}
+.blue:hover{
+    color:blue;
+    font-weight: 800;
+    
+}
+.bigger{
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
+}
+
+/* Here it ends */
+
+h1 {
+    Text-Align: Center;
+
+}
+
+.hover:hover {
+    Text-decoration: underline;
+    color: red;
+}
+
+.h1:hover {
+    Color: blue
+}
+
+.right {
+    float: right;
+    border: 2px solid black;
+}
+
+.left {
+    float: left;
+}
+img{
+    border: 2px solid black;
+    outline: 2px;
+}
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+A {
+    Color: Black;
+    text-decoration: none;
+}
+
+i {
+    Color: green;
+
+}
+
+b {
+    color: Red;
+}
+
+u {
+    COLOR: bLUE;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.heading{
+    background: white;
+    margin: 20px;
+    height:30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+.heading:hover{
+    box-shadow: 2px 5px 10px skyblue;
+}
+.white{
+    color: white;
+}
+
+
+
+.pont{
+    background: white;
+    margin: 20px;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+.cont{
+    background: white;
+    margin: 20px;
+    height: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+
+}
+.cont2{
+    background: white;
+    margin: 20px;
+    width: 49%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+
+}
+
+.edit{
+    display: flex;
+    
+   
+}
+.half{
+    background: white;
+    margin: 20px;
+    width: 49%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    
+}
+.full{
+    background: white;
+    margin: 20px;
+    width: 49%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+.int{
+    background: white;
+    margin: 20px;
+    width: 34%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+
+
+.cont3{
+    background: white;
+    margin: 20px;
+    height: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+.cont4{
+    background: white;
+    margin: 20px;
+    height: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black; 
+}
+.cont5{
+    background: white;
+    margin: 20px;
+    height: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black; 
+}
+.big{
+    font-weight: 900;
+}
+.cont,.cont2,.cont3,.cont4, .cont5, .int, .full, .half, .edit, .pont,.heading{
+    transition: all 0.5s ease
+}
+
+.cont:hover,.cont2:hover,.cont3:hover,.cont4:hover, .cont5:hover, .int:hover, .full:hover, .half:hover, .edit:hover, .pont:hover,.heading:hover{
+    box-shadow:  1px 2px 5px skyblue;
+    transform: scale(1.02); 
+}
+
+
+.edit:hover{
+    box-shadow:  1px 2px 5px red;
+}
+/* This section is for footer */
+
+
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redd{
+    text-transform: uppercase;
+      animation: rgb 5s infinite;
+      padding-right: 120px;
+}
+.redd:hover{
+ color: red;
+ cursor: pointer;
+}
+.em{
+    color:blue;
+    transition: all 0.5s ease;
+    
+    
+}
+.qwe{
+    padding-left: 40px;
+}
+.em:hover{
+    text-decoration: underline;
+    transform: scale(1.5);  
+}
+@keyframes rgb {
+    0% {
+      color: red;
+    }
+    33% {
+      color: green;
+    }
+    66% {
+      color: blue;
+    }
+    100% {
+      color: red;
+    }
+  }
